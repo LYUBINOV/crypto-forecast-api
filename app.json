@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Predictify",
+    "slug": "crypto-forecast-ui",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_logo.png",
+    "primaryColor": "#000000",  
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8841522700138693~1927071097"
+      },
+      "package": "com.predictify.predictify",
+      "versionCode": 2,
+      "permissions": []
+    }
+  }
+}
